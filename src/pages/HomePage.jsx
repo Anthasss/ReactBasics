@@ -25,7 +25,7 @@ export default function HomePage() {
       <div className="hero h-full bg-cover" style={{ backgroundImage: `url(${bgImage})` }}>
         <div className="h-full w-full bg-transparent"></div>
         <div className="hero-content text-center">
-          <div className="max-w-lg bg-black bg-opacity-40 p-8 rounded-box">
+          <div className="max-w-lg bg-black bg-opacity-60 p-8 rounded-box">
             <h1 className="text-7xl font-bold text-white">Hello there!</h1>
             <p className="py-6 text-lg text-white font-bold">
               Welcome to Anthas Prog React Learning Journey.
