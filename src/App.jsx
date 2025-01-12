@@ -8,6 +8,7 @@ import Sidebar from "./components/Sidebar";
 // Page Components
 import HomePage from "./pages/HomePage";
 import ThemeChangerPage from "./pages/ThemeChangerPage";
+import WeatherPage from "./pages/WeatherPage";
 
 // Contexts
 import { ThemeContext } from "./contexts/ThemeContext";
@@ -27,9 +28,14 @@ function App() {
       {/* Content Routings */}
       <div className="flex">
         <Routes>
+          {/* Home Page */}
           <Route path="/" element={<HomePage />} />
+
+          {/* Theme Page */}
           <Route path="day-one" element={<ThemeChangerPage />} />
-          <Route path="day-two" element={<h1>day two</h1>} />
+
+          {/* Weather Page */}
+          <Route path="day-two" element={<WeatherPage />} />
         </Routes>
       </div>
     </div>

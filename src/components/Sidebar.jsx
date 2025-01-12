@@ -8,7 +8,7 @@ export default function Sidebar() {
     <div className="flex-grow bg-base-300 lg:min-h-screen">
       {/* visible on smaller screen */}
       <div className="block lg:hidden">
-        <div className="navbar bg-base-100">
+        <div className="navbar">
           <div className="navbar-start">
             <Link to="/" onClick={() => setPage("Home")} className="btn btn-ghost text-xl font-bold">
               AnthasProg
@@ -44,7 +44,7 @@ export default function Sidebar() {
       </div>
 
       {/* visible on large screen */}
-      <div className="hidden lg:block bg-base-100 lg:h-full">
+      <div className="hidden lg:block bg-base-300 lg:h-full">
         <div className="p-4">
           <Link to="/" onClick={() => setPage("Home")} className="btn btn-ghost hover:none text-xl font-bold">
             Anthas Prog
